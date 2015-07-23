@@ -1,0 +1,245 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>TongueSee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 800px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 25px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+    </style>
+    <link href="./css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.bootcss.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+                   
+                     <script>
+                      function resizeFrame(){
+                        document.all("demo_frame").width = document.all("banner").scrollWidth;
+                      document.all("demo_frame").height = document.all("banner").scrollWidth * 0.6; <!-- youtube 0.6 vimeo 0.573-->
+                    }   
+                     </script>
+                   <script>
+                     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                     ga('create', 'UA-41404350-1', 'washington.edu');
+                     ga('send', 'pageview');
+
+                   </script>
+  </head>
+
+  <body>
+
+    <div id="banner" class="container-narrow">
+
+      <div class="masthead">
+        
+          <ul class="nav nav-pills pull-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#TongueSee">TongueSee</a></li>
+            <li><a href="#people">People</a></li>
+        <li><a href="#publication">Publication</a></li>
+        <li><a href="#faq">FAQ</a></li>
+          </ul>
+        <h2 class="muted pull-right span5">Whole-Home Gesture Recognition Using Wireless</h2>
+    <img src="./title.png" >
+    
+
+      </div>
+
+      <hr>
+    
+    <!-- TongueSee
+    ================================================== -->
+    <section id="TongueSee">
+        <h3 class="muted">What is TongueSee?</h3>  
+    
+      <div class="row">
+        <div class="span8">
+          <p>TongueSee is a novel interaction interface that leverages ongoing wireless transmissions in the environment (e.g., WiFi) to enable whole-home sensing and recognition of human gestures. Since wireless signals do not require line-of-sight and can traverse through walls, TongueSee can enable whole-home gesture recognition using few wireless sources (e.g., a Wi-Fi router and a few mobile devices in the living room).</p>
+          <p>TongueSee is the first wireless system that can identify gestures in line-of-sight, non-line-of-sight, and through-the-wall scenarios. Unlike other gesture recognition systems like <a href="http://www.xbox.com/kinect">Kinect</a>, <a href="https://www.leapmotion.com/">Leap Motion</a> or <a href="https://www.thalmic.com/myo/">MYO</a>, TongueSee requires neither an infrastructure of cameras nor user instrumentation of devices.  We implement a proof-of-concept prototype of TongueSee and evaluate it in both an office environment and a two-bedroom apartment. Our results show that TongueSee can identify and classify a set of nine gestures with an average accuracy of 94%.
+      </p>
+        </div>
+      </div>
+    </section>
+        
+      <div class="jumbotron">
+        <div class="video">
+           <iframe id="demo_frame" width="100%" height="480" src="http://www.youtube.com/embed/VZ7Nz942yAY?rel=0&vq=hd1080&iv_load_policy=1" frameborder="0" allowfullscreen></iframe>
+       <!--
+       <iframe id="demo_frame" src="http://player.vimeo.com/video/67521961?title=1&amp;byline=0&amp;portrait=0" width="100%" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+         -->
+       <script>
+           resizeFrame();
+       </script>
+        </div><!-- /.video -->
+      </div>
+    
+    
+    <!-- design
+    ================================================== -->
+      <!--
+    <section id="design">
+      <div class="page-header">
+        <h3 class="muted">Design:  How does TongueSee work?</h3>  
+      </div>
+    
+      <div class="row">
+        <div class="span4">
+          <h3>Example body text</h3>
+          <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>
+        </div>
+      </div>
+    </section>
+  -->
+    <!-- people
+    ================================================== -->
+    <section id="people">
+      
+        <h3 class="muted">People</h3>  
+    <h3>Students</h3>
+          <p> 
+          <a href="http://homes.cs.washington.edu/~qp/">Qifan Pu</a>
+          <br/>
+          <a href="http://homes.cs.washington.edu/~sidhant">Sidhant Gupta</a>
+      <br/>
+          <h3>Faculty</h3>
+    <a href="http://homes.cs.washington.edu/~gshyam/">Shyam Gollakota</a>     
+          <br/>
+          <a href="http://abstract.cs.washington.edu/~shwetak/">Shwetak Patel</a>
+      <br/>
+      <br/>
+      Contact: <a href="mailto:TongueSee-contact@cs.washington.edu">TongueSee-contact@cs.washington.edu</a>
+    </section>
+      
+    </br>
+    <!-- publication
+    ================================================== -->
+    <section id="publications">
+        <h3 class="muted">Publications</h3> 
+      <h5>Whole-Home Gesture Recognition Using Wireless Signals [<a href="./TongueSee_paper.pdf">paper</a>]</h5> 
+      Qifan Pu, Sidhant Gupta, Shyam Gollakota, Shwetak Patel
+        </br>
+      <!--<i>Department of Computer Science and Engineering, University of Washington, Seattle, Tech Report, June 2013</i>-->
+      <i> The 19th Annual International Conference on Mobile Computing and Networking (Mobicom'13) </i><b>(Best Paper Award)</b>
+    <h5> Whole-Home Gesture Recognition Using Wireless Signals
+(Demo) [<a href="http://conferences.sigcomm.org/sigcomm/2013/papers/sigcomm/p485.pdf">paper</a>]</h5>
+    Qifan Pu, Siyu Jiang, Shyam Gollakota
+    </br>
+    <i> ACM SIGCOMM'13</i>
+
+    </section>
+    
+      </br>
+
+  <section id="Links">
+              <h3 class="muted">Links</h3>
+                <h5><a href="http://allsee.cs.washington.edu">AllSee</a>
+    </br>
+
+          </section>
+
+      </br>
+    <!-- FAQ
+    ================================================== -->
+    <section id="faq">
+        <h3 class="muted">Frequently Asked Questions</h3>               <!-- Example row of columns -->
+      <div class="row-fluid">
+        <div class="span4">
+          <h5>Does TongueSee require modification of wireless standards (like WiFi)?</h5>
+          <p>No, TongueSee requries no change to current standards.</p>
+          <h5>So TongueSee is a stand-alone device?</h5>
+          <p>Not necessarily. It could be potentially implemented in today's wireless devices in the near future. Imagine that you might be able to buy wireless router which could also do gesture recognition. TongueSee enabled!</p>
+        </div>
+        <div class="span4">
+          <h5>How does TongueSee deal with motion interference from other people in the environment?</h5>
+          <p>TongueSee takes advantage of the technology trend of MIMO, the fact that wireless devices today carry multiple antennas (which are primarily used to improve capacity). A TongueSee/TongueSee-enabled receiver would use these multiple antennas in a different way to focus only on the user in control, thus eliminating interference from other people.</p>
+       </div>
+        <div class="span4">
+          <h5>Would I accidentally trigger commands through TongueSee?</h5>
+          <p>Unlikely. You always perform a startup sequence of gestures to get into the control system before sending the real gesture commands. The startup sequence could be relatively long so false positives become rare cases. Such a startup sequence can also serve as your personal password, in this way the system is protected against adversaries.</p>
+        </div>
+      </div>
+    </section>
+   
+    <div class="row-fluid marketing">
+
+      <div class="footer">
+    <p>
+        <a href="http://netlab.cs.washington.edu">
+          <img src="./netlab_logo.png" height=70 width=70>
+        </a>
+      </p>
+      <!--
+      <a href="http://www.cs.washington.edu/">
+          <img src="./CSE_logo.png" height=70 width=70>
+      </a>
+      -->
+        <p class="muted">&copy; Qifan Pu, Computer Science & Engineering, University of Washington.   <br>Powered by Bootstrap.</br></p>
+      </div>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./jquery/jquery-1.9.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+  <script> window.onresize = function(){resizeFrame();}; </script>
+  
+  </body>
+</html>
