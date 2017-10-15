@@ -1,174 +1,85 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Tongue Machine Interface</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Le styles -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="css/vin.css" rel="stylesheet">
-    <style type="text/css">
+    <meta name="description" content="TongueSee">
+    <meta name="author" content="Qiao Zhang">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet"><!-- Custom styles for this template -->
+    <style>
+      .jumbotron { 
+        background-color: #39275B;
+        color: #ffffff;
+      }
       body {
-        padding-bottom: 40px;
-        vertical-align: top;
+      /*background: #F8F8F8;*/
+      padding-left: 30px;
+      font: 16px/1.5 "Roboto", sans-serif;
+      font-weight: 300;
       }
-
-      /* Custom container */
-      .container-narrow {
-        margin: 0 auto;
-        max-width: 700px;
-      }
-      .container-narrow > hr {
-        margin: 30px 0;
-      }
-
-      /* Main marketing message and sign up button */
-      .jumbotron {
-        //margin: 60px 0;
-        text-align: center;
-        vertical-align: top;
-      }
-      h1 {
-        font-size: 20pt;
-      }
-      h3 {
-        margin-top: 30px;
-        margin-bottom: 5px;
-      }
-
-.subhead {
-text-align: left;
-background-color: #39275B;
-color: #FFF;
-margin-top: 0px;
-padding-top: 3px;
-padding-bottom: 3px;
-margin-bottom: 0px;
-//box-shadow: 0 0px 6px #333;
-//-moz-box-shadow: 0 0px 6px #333;
-//-webkit-box-shadow: 0 0px 6px #333;
-
--webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
--moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
-
-text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
-}
 
     </style>
-    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="bootstrap/js/html5shiv.js"></script>
-    <![endif]-->
-
   </head>
-
   <body>
-
-    <div class="jumbotron subhead">
-      <div class="container-narrow">
-        <h1>TongueSee</h1>
-        <h2 class="muted">Non-Invasive Tongue Machine Interface</h2>
-      </div>
+    <div class="jumbotron text-center">
+      <h1>TongueSee</h1>
+      <p>Non-Invasive Tongue Machine Interface</p>
     </div>
-
-
-
-    <div class="container-narrow">
-
-    <img src="files/tonguesee.png" width = "100%">
-
-    <section id="tonguesee">
-        <h3 class="muted">What is TongueSee?</h3>  
-    
+    <div class="container text-center">
+      <img src="files/tonguesee.png" width = "65%">
+    </div>
+    <div class="container">
       <div class="row">
-        <div class="span8">
+        <div class="col-12 col-md-8 col-md-offset-2">
+          <h3>What is TongueSee?</h3>
           <p> People with tetraplegia have either partially or completely lost their abilities to move their arms or legs. We want technologies to help those patients to interact with their surroundings. Fortunately, many of those patients are able to move their tongues on command. Researchers have thus asked if it is possible to help them to use their tongues to control their environment. Prior approaches use sensors inside the mouth to track tongue motion. For example, Tongue Drive uses magnetic sensors inside the mouth and a tongue piercing. Work from Scott Saponas does not require a tongue piercing but it requires infra-red sensors. We ask the question if we can detect tongue movements without having sensors inside the mouth.</p>
-
           <p> TongueSee is a novel non-intrusive tongue gesture system, that does not require any surgical procedures or sensors inside the mouth. Instead, TongueSee uses EMG sensors at physiologically informed positions at the lower face and neck to detect the minute jaw movements when users move their tongues. We have built and tested a prototype that can detect six tongue gestures (left, right, up, down, protrude and rest) with accuracies above 90%. We have also designed a start tongue gesture that can significantly reduce the false positive rate of the system.</p>
         </div>
       </div>
-    </section>
-        
-
-<br>
-
-  <div class="video">
-    <iframe id="demo_frame"
-      width="100%"
-      height="480"
-      src="http://www.youtube.com/embed/sKJ7iXmCwis"
-      frameborder="0"
-      allowfullscreen></iframe>
-    <script>
-      resizeFrame();
-    </script>
-  </div>
-
-      <h3>Student</h3>
-      <p>
-      <a href="http://homes.cs.washington.edu/~qiao/">Qiao Zhang</a><br/>
-      <h3>PIs</h3>
-      <a href="http://homes.cs.washington.edu/~gshyam/">Shyam Gollakota</a><br/>
-      <a href="http://homes.cs.washington.edu/~taskar/">Ben Taskar</a><br/>
-      <a href="http://homes.cs.washington.edu/~rao/">Raj P. N. Rao</a><br/>
-      <br/>
-      <br/>
-      Contact: <a href="mailto:qiao@cs.washington.edu">qiao@cs.washington.edu</a>
-      </p>
-
-      <h3>Publications</h3>
-      <b>Tongue Machine Interface</b><br/>
-      Qiao Zhang, Shyamnath Gollakota, Ben Taskar, Raj P. N. Rao<br/>
-      CHI, April 2014 [<a href="files/chi2014_zhang.pdf">PDF</a>]
-      <h3>Links</h3>
-      <a href="http://netlab.cs.washington.edu/">UW Networks and Wireless Lab</a>
-
-
-      <hr>
-
-      <div class="footer">
-        <p>&copy; Qiao Zhang, Computer Science & Engineering, University of Washington.<br \>
-        Powered by Bootstrap.</p>
+    </div>
+    <div class="container text-center">
+      <div class="video">
+        <iframe id="demo_frame"
+          width="65%"
+          height="480"
+          src="https://www.youtube.com/embed/sKJ7iXmCwis"
+          frameborder="0"
+          allowfullscreen></iframe>
       </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-8 col-md-offset-2">
+          <h3>Publications</h3>
+          <b>Tongue Machine Interface</b><br/>
+          Qiao Zhang, Shyamnath Gollakota, Ben Taskar, Raj P. N. Rao<br/>
+          CHI, April 2014 [<a href="files/chi2014_zhang.pdf">PDF</a>]
+          <h3>Links</h3>
+          <a href="http://homes.cs.washington.edu/~qiao/">Qiao Zhang Homepage</a><br/>
+          <a href="http://netlab.cs.washington.edu/">UW Networks and Wireless Lab</a>
+          <hr>
+          <div class="footer">
+            <p>Paul G. Allen School of Computer Science and Engineering, University of Washington.<br \>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50627265-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    </div> <!-- /container -->
+      gtag('config', 'UA-50627265-1');
+    </script>
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="bootstrap/js/jquery.js"></script>
-    <script src="bootstrap/js/bootstrap-transition.js"></script>
-    <script src="bootstrap/js/bootstrap-alert.js"></script>
-    <script src="bootstrap/js/bootstrap-modal.js"></script>
-    <script src="bootstrap/js/bootstrap-dropdown.js"></script>
-    <script src="bootstrap/js/bootstrap-scrollspy.js"></script>
-    <script src="bootstrap/js/bootstrap-tab.js"></script>
-    <script src="bootstrap/js/bootstrap-tooltip.js"></script>
-    <script src="bootstrap/js/bootstrap-popover.js"></script>
-    <script src="bootstrap/js/bootstrap-button.js"></script>
-    <script src="bootstrap/js/bootstrap-collapse.js"></script>
-    <script src="bootstrap/js/bootstrap-carousel.js"></script>
-    <script src="bootstrap/js/bootstrap-typeahead.js"></script>
-
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-50627265-1', 'washington.edu');
-  ga('send', 'pageview');
-
-</script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   </body>
 </html>
-
