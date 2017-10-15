@@ -1,147 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Qiao Zhang</title>
-
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Qiao Zhang" name="author">
+    <meta content="Qiao Zhang's homepage" name="description">
+    <title>Qiao Zhang's Homepage</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet"><!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet"><!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
 <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<script type="text/javascript">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-50840614-1">
+    </script>
+    <script>
+                       window.dataLayer = window.dataLayer || [];
 
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-24299906-1']);
-_gaq.push(['_trackPageview']);
+                       function gtag() {
+                           dataLayer.push(arguments);
+                       }
+                       gtag('js', new Date());
 
-(function() {
- var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
- ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
- var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
- })();
-
-</script>  
+                       gtag('config', 'UA-50840614-1');
+    </script>
 </head>
 <body>
-
-<div class="container">
-<div class="simple">
-<div class="row">
-<div class="col-sm-3">
-<img  class="img-responsive" src="img/qiao.jpg" width="200"/>
-</div> <!--.col-sm-3-->
-<div class="col-sm-3">
-<h1>Qiao Zhang</h1>
-<br>
-<br>Ph.D Student
-<br><a href="http://netlab.cs.washington.edu/">Networks Lab</a>
-<br><a href="http://www.cs.washington.edu/">Computer Science and Engineering</a>
-<br>University of Washington
-<div id="email"></div>
-<a href="static/QiaoZhang_CV.pdf">Curriculum Vitae</a>			
-<p>Email: first_name at cs.washington.edu</p>
-</div> <!--.col-sm-4-->
-</div> <!--/.row-->
-</div><!-- /.simple -->
-</div><!-- /.container -->
-
-	
-<div class="container" id="bio">
-<div class="simple">
-<h2>Biography </h2> 
-<p>
-I am a fifth-year PhD student in the Paul G. Allen School of Computer Science and Engineering at the University of Washington. Currently, I am working with Prof. <a href="http://homes.cs.washington.edu/~tom/"> Tom Anderson </a>  and Prof. <a href="http://homes.cs.washington.edu/~arvind/">Arvind Krishnamurthy</a>. I am interested in distributed systems and machine learning. Before joining UW, I obtained a bachelor's degree in Computer Science and Physics from Williams College.
-</p>
-</div><!-- /.simple -->
-</div><!-- /.container -->
-
-<div class="container" id="interests">
-<div class="simple">
-<h2>Research Interests</h2> 
-<p>
-I am broadly interested in distributed systems, networking and large-scale machine learning. I am currently working on projects related to <b>datacenter networking</b>.
-</p>
-</div><!-- /.simple -->
-</div><!-- /.container -->
-
-<div class="container" id="publications">
-  <div class="simple">
-  <h2>Publications </h2> 
-  <p><a href="paper/imc.pdf">High-Resolution Measurement of Data Center μbursts</a><br>
-  <b>Qiao Zhang</b>, Vincent Liu, Hongyi Zeng, Arvind Krishnamurthy.<br>
-  IMC 2017
-  </p>
-
-  <p><a href="paper/canaries.pdf">Canaries in the network</a><br>
-  Danyang Zhuo, <b>Qiao Zhang</b>, Xin Yang, Vincent Liu.<br>
-  HotNets 2016
-  </p>
-
-  <p><a href="paper/rackcc.pd">Rack-level congestion control</a><br>
-  Danyang Zhuo, <b>Qiao Zhang</b>, Tom Anderson, Arvind Krishnamurthy, Vincent Liu.<br>
-  HotNets 2016
-  </p>
-
-  <p><a href="paper/a3-zhuo.pdf">Machine Fault Tolerance for Reliable Datacenter Systems</a><br>
-  Danyang Zhuo, <b>Qiao Zhang</b>, Dan Ports, Arvind Krishnamurthy, Tom Anderson.<br>
-  APSYS 2014
-  </p>
-
-  <p><a href="paper/p99-peter.pdf">One Tunnel Is (often) Enough</a><br>
-  Simon Peter, Umar Javed, <b>Qiao Zhang</b>, Doug Woos, Tom Anderson, Arvind Krishnamurthy.<br>
-  SIGCOMM 2014
-  </p>
-  <p><a href="paper/p2555-zhang.pdf">Non-intrusive Tongue Machine Interface</a><br>
-  <b>Qiao Zhang</b>, Shyam Gollakota, Ben Taskar, Rajesh R. N. Rao.<br>
-  CHI 2014 <br>
-  [<a href="tonguesee/index.html">Project Website</a>]
-  </p>
-</div><!-- /.simple -->
-</div><!-- /.container -->
-
-<div class="container" id="ta">
-  <div class="simple">
-  <h2>Teaching Assistantship</h2> 
-  <a name="TAs"> Deep Learning Systems <a href="http://dlsys.cs.washington.edu/">(UW CSE 599G1, Spring 2017) </a></br>
-  <a name="TAs"> Introduction to Networks <a href="http://courses.cs.washington.edu/courses/cse461/15sp/">(UW CSE 461, Spring 2015) </a></br>
-  <a name="TAs"> Operating Systems <a href="http://courses.cs.washington.edu/courses/cse451/14au/">(UW CSE 451, Fall 2014) </a>
-</div><!-- /.simple -->
-</div><!-- /.container -->
-
-<div class="container" id="code_repo">
-  <div class="simple">
-  <h2>Code Repository</h2> 
-	<a name="repo"> </a>
-	  I am starting to actively share the code I write for class, interview preparation, research and other fun projects on <a href="https://github.com/zhangqiaorjc"> GitHub </a>. My proudest coding projects so far include a <a href="https://github.com/dlsys-course/assignment2">Deep Learning System</a> built from scratch that can train a MLP in GPU and an <a href="https://github.com/zhangqiaorjc/cse550/tree/master/problemset2">distributed lock service </a> using Paxos.
-</div><!-- /.simple -->
-</div><!-- /.container -->
-
-<!-- Bootstrap core JavaScript
+    <div class="container" id="main">
+        <div class="row">
+            <div class="col-header"><img alt="Qiao Zhang" id="avatar" src="img/qiao.jpg"></div>
+            <div class="col-header">
+                <h1>Qiao Zhang <span>(张乔)</span></h1>
+                <div id="status">
+                    <span class="text-success highlight">5th-Year Ph.D student</span> @ <a href="http://syslab.cs.washington.edu">System Lab</a>, <a href="http://www.cs.washington.edu">CSE</a>, <a href="http://www.washington.edu">UW</a>
+                </div>
+                <div id="email">
+                    <span class="text-success">qiao at cs.washington.edu</span><br>
+                </div>
+                <div id="address">
+                    CSE 391, Paul G. Allen Center<br>
+                    <!-- 185 Stevens Way, AC101, Box 352350, Seattle, WA 98195 -->
+                </div>
+                <div id="cv">
+                    <a href="static/QiaoZhang_CV.pdf">Curriculum Vitae</a>
+                </div>
+                <div id="social">
+                    <a href="https://twitter.com/zhangqiaorjc"><img class="icon" src="img/twitter.png"></a> <a href="https://www.linkedin.com/in/qiaozhanglinkedin"><img class="icon" src="img/linkedin.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="bio">
+            <div class="simple">
+                <h2>Biography</h2>
+                <p>I am a 5th-year CS PhD student at the University of Washington. I work with Prof. <a href="http://homes.cs.washington.edu/~tom/">Tom Anderson</a> and Prof. <a href="http://homes.cs.washington.edu/~arvind/">Arvind Krishnamurthy</a>. I am broadly interested in <strong>distributed systems</strong>, <strong>data center networking</strong> and <strong>deep learning systems</strong>. Before joining UW, I obtained a bachelor's degree in Computer Science and Physics from Williams College and was a visiting student at Caltech for one year.</p>
+            </div>
+        </div>
+        <div class="row text-center" id="news">
+            <h2>I am on the job market for 2018.</h2>
+        </div>
+        <div class="row" id="publications">
+            <div class="simple">
+                <h2>Publications</h2>
+                <p><a href="paper/imc.pdf">High-Resolution Measurement of Data Center μbursts</a><br>
+                <b>Qiao Zhang</b>, Vincent Liu, Hongyi Zeng, Arvind Krishnamurthy.<br>
+                IMC 2017</p>
+                <p><a href="paper/canaries.pdf">Canaries in the network</a><br>
+                Danyang Zhuo, <b>Qiao Zhang</b>, Xin Yang, Vincent Liu.<br>
+                HotNets 2016</p>
+                <p><a href="paper/rackcc.pdf">Rack-level congestion control</a><br>
+                Danyang Zhuo, <b>Qiao Zhang</b>, Tom Anderson, Arvind Krishnamurthy, Vincent Liu.<br>
+                HotNets 2016</p>
+                <p><a href="paper/a3-zhuo.pdf">Machine Fault Tolerance for Reliable Datacenter Systems</a><br>
+                Danyang Zhuo, <b>Qiao Zhang</b>, Dan Ports, Arvind Krishnamurthy, Tom Anderson.<br>
+                APSYS 2014</p>
+                <p><a href="paper/p99-peter.pdf">One Tunnel Is (often) Enough</a><br>
+                Simon Peter, Umar Javed, <b>Qiao Zhang</b>, Doug Woos, Tom Anderson, Arvind Krishnamurthy.<br>
+                SIGCOMM 2014</p>
+                <p><a href="paper/p2555-zhang.pdf">Non-intrusive Tongue Machine Interface</a><br>
+                <b>Qiao Zhang</b>, Shyam Gollakota, Ben Taskar, Rajesh R. N. Rao.<br>
+                CHI 2014<br>
+                [ <a href="tonguesee/index.html">Project Website</a>]</p>
+            </div>
+        </div>
+        <div class="row" id="ta">
+            <div class="simple">
+                <h2>Internships</h2><a href="">Microsoft Research</a> (Systems Group, Redmond, Summer 2017)<br>
+                <a href="">Facebook</a> (Net Systems Team, Redmond, Summer 2016)<br>
+                <a href="">Google</a> (Platforms Networking Team, Mountain View, Fall 2015)<br>
+                <a href="">Google</a> (MapReduce Team, Mountain View, Summer 2014)<br>
+            </div>
+        </div>
+        <div class="row" id="ta">
+            <div class="simple">
+                <h2>Teaching Assistantship</h2><a id="TAs" name="TAs">Deep Learning Systems</a> <a href="http://dlsys.cs.washington.edu/">(UW CSE 599G1, Spring 2017)</a><br>
+                <a id="TAs" name="TAs">Introduction to Networks</a> <a href="http://courses.cs.washington.edu/courses/cse461/15sp/">(UW CSE 461, Spring 2015)</a><br>
+                <a id="TAs" name="TAs">Operating Systems</a> <a href="http://courses.cs.washington.edu/courses/cse451/14au/">(UW CSE 451, Fall 2014)</a>
+            </div>
+        </div>
+        <div class="row" id="code_repo">
+            <div class="simple">
+                <h2>Code</h2><a id="repo" name="repo"></a> I share some of the code I wrote for class, research and other fun projects on <a href="https://github.com/zhangqiaorjc">GitHub</a> .<br>
+                Highlights include:
+                <ul>
+                    <li>
+                        <a href="https://github.com/dlsys-course/assignment1">Deep Learning System (Part I)</a> and <a href="https://github.com/dlsys-course/assignment2">(Part II)</a> built from scratch that can train a MLP in GPU.
+                    </li>
+                    <li>
+                        <a href="https://github.com/zhangqiaorjc/cse550/tree/master/problemset2">Distributed Lock Service</a> on top of a custom Paxos implementation.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="ta">
+            <div class="simple">
+                <h2>Graduate Coursework</h2>
+                <h4>Machine Learning</h4>
+                <ul>
+                    <li>
+                        <a href="https://courses.cs.washington.edu/courses/cse546/13au/">CSE 546: Machine Learning, Autumn 2013</a>
+                    </li>
+                    <li>
+                        <a href="http://courses.cs.washington.edu/courses/cse517/16wi/">CSE 517: Natural Language Processing, Winter 2016</a>
+                    </li>
+                    <li>
+                        <a href="http://courses.cs.washington.edu/courses/cse515/15wi/">CSE 515: Statistical Methods in Computer Science, Winter 2015</a>
+                    </li>
+                    
+                </ul>
+                <h4>Systems</h4>
+                <ul>
+                    <li>
+                        <a href="https://courses.cs.washington.edu/courses/cse550/14wi/">CSE 550: Computer Systems, Winter 2014</a>
+                    </li>
+                    <li>
+                        <a href="http://courses.cs.washington.edu/courses/cse551/15sp/">CSE 551: Operating Systems, Spring 2015</a>
+                    </li>
+                    <li>
+                        <a href="https://courses.cs.washington.edu/courses/cse552/13au/">CSE 552: Distributed Systems, Autumn 2013</a>
+                    </li>
+                    <li>
+                        <a href="http://courses.cs.washington.edu/courses/cse544/15wi/">CSE 544: Data Management, Winter 2015</a>
+                    </li>
+                    <li>
+                        <a href="https://courses.cs.washington.edu/courses/cse548/14au/">CSE 548: Computer Architecture, Autumn 2014</a>
+                    </li>
+                    <li>
+                        <a href="http://courses.cs.washington.edu/courses/cse504/16wi/">CSE 504: Advanced Topics in Software Engineering, Winter 2016</a>&lt;/
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div><!-- Bootstrap core JavaScript
 ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="dist/js/bootstrap.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<!--script src="assets/js/ie10-viewport-bug-workaround.js"></script-->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script> <!-- Latest compiled and minified JavaScript -->
+     
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+    </script> <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+     <!--script src="assets/js/ie10-viewport-bug-workaround.js"></script-->
 </body>
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
- (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
- m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
- })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-50840614-1', 'washington.edu');
-ga('send', 'pageview');
-
-</script>
 </html>
